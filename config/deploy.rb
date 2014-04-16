@@ -4,7 +4,6 @@ set :deploy_user, 'deployer'
 # setup repo details
 set :scm, :git
 set :repo_url, 'https://github.com/gpolyn/rails_4_cap_3.git'
-
 # setup rvm.
 set :rbenv_type, :user
 set :rbenv_ruby, '2.1.1'
