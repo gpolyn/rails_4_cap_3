@@ -53,7 +53,9 @@ gem 'capistrano-rails', '~> 1.1.0'
 gem 'capistrano-bundler'
 
 # if you are using RBENV
-gem 'capistrano-rbenv', "~> 2.0" 
+# gem 'capistrano-rbenv', "~> 2.0" 
+
+gem 'capistrano-rvm'
 
 # Use Unicorn as our app server
 gem 'unicorn'

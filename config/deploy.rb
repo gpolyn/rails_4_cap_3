@@ -5,10 +5,12 @@ set :deploy_user, 'deployer'
 set :scm, :git
 set :repo_url, 'https://github.com/gpolyn/rails_4_cap_3.git'
 # setup rvm.
-set :rbenv_type, :user
-set :rbenv_ruby, '2.1.1'
-set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
-set :rbenv_map_bins, %w{rake gem bundle ruby rails}
+set :rvm_type, :user
+set :rvm_ruby_version, '2.1.1'
+# set :rbenv_type, :user
+# set :rbenv_ruby, '2.1.1'
+# set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
+# set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
 # how many old releases do we want to keep, not much
 set :keep_releases, 5
