@@ -7,6 +7,7 @@ set :repo_url, 'https://github.com/gpolyn/rails_4_cap_3.git'
 # setup rvm.
 set :rvm_type, :user
 set :rvm_ruby_version, '2.1.1'
+set :rvm_custom_path, '/usr/local/rvm'
 # set :rbenv_type, :user
 # set :rbenv_ruby, '2.1.1'
 # set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
